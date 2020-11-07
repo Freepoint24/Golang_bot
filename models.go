@@ -13,3 +13,7 @@ type Message struct {
 type Chat struct {
 	ChatId int `json:"chat"`
 }
+
+type RestResponse struct {
+	Result []Update `json:"result"`
+}
